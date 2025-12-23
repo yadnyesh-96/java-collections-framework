@@ -15,7 +15,7 @@ public class IteratorApp{
 		
 		while(i.hasNext()){
 			Object obj=i.next();
-			System.out.println(obj)
+			System.out.println(obj);
 		}
 	}
 }
