@@ -16,7 +16,7 @@ public class remove_ListApp{
 		if(al.remove(2)==null){
 			System.out.println("data not deleted");
 		}else{
-			System.out.println("Data removed "+al.remove(2))
+			System.out.println("Data removed "+al.remove(2));
 		}
 	}
 }
