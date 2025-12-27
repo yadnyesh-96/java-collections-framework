@@ -6,6 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class ArrayList_rmEven{
 	public static void main(String x[]){
 	Scanner sc=new Scanner(System.in);
+	
 	CopyOnWriteArrayList al=new CopyOnWriteArrayList();
 	
 		al.add(40);
