@@ -24,3 +24,14 @@ public class FailFast_VectorApp{
 		System.out.println("After modification Vector is :"+v);
 	}
 }
+/*
+
+Output:
+6 warnings
+Before the Modification Vector is: [10, 20, 30, 40, 50]
+Exception in thread "main" java.util.ConcurrentModificationException
+        at java.base/java.util.Vector$Itr.checkForComodification(Vector.java:1292)
+        at java.base/java.util.Vector$Itr.next(Vector.java:1248)
+        at FailFast_VectorApp.main(FailFast_VectorApp.java:18)
+		
+*/
