@@ -13,6 +13,10 @@ public class put_mapAPP{
 		map.put(5,70);
 		map.put(7,50);
 		
-		System.out.println(map);
+		//System.out.println(map);
+		Collection c =map.values();
+		for(Object val:c){
+			System.out.println(val);
+		}
 	}
 }
