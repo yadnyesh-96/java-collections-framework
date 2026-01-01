@@ -32,21 +32,19 @@ public class MergeArrayListApp{
 		Iterator i=al.iterator();
 		while(i.hasNext()){
 			Object obj=i.next();
-			if(!(al.contains(obj))){
-				al3.add(obj);
-			}
+			al3.add(obj);
 		}
 		
 		Iterator j=al2.iterator();
-		while(i.hasNext()){
+		while(j.hasNext()){
 			Object obj=j.next();
-			if(al.contains(obj)){
+			if(!al.contains(obj)){
 				al3.add(obj);
 			}
 		}
 		
 		Iterator k=al3.iterator();
-		while(i.hasNext()){
+		while(k.hasNext()){
 			Object obj=k.next();
 			System.out.println(obj);
 		}
