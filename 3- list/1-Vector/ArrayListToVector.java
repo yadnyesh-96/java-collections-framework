@@ -22,13 +22,15 @@ public class ArrayListToVector{
 		
 		for(int i=0; i<v.size(); i++){
 			for(int j=i+1; j<v.size(); j++){
-				Object obj1=i.next();
-				Object obj2=j.next();
-				if((int)obj1>(int)obj2){
-					int temp=obj1;
-					obj1=obj2;
-					obj2=temp;
-				}
+				
+				int val1 = (int) v.get(i);
+                int val2 = (int) v.get(j);
+
+                if (val1 > val2) {
+                   
+                    v.set(i, val2);
+                    v.set(j, val1);
+                }
 			}
 		}
 		
