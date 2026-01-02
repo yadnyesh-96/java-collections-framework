@@ -5,7 +5,7 @@ import java.util.*;
 public class Unique_MapAPP{
 		public static void main(String x[]){
 			
-			int a[]=new int[]{1,1,1,2,2,3};
+			int a[]=new int[]{4,3,2,7,8,2,3,1};
 			
 			HashMap map=new HashMap();
 			ArrayList al=new ArrayList();
