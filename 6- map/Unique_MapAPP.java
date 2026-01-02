@@ -13,9 +13,9 @@ public class Unique_MapAPP{
 			for(int v:a){
 				if(map.containsKey(v)){
 					map.put(v, (int)map.get(v) + 1);
+					al.add(v);
 				}else{
 					map.put(v,1);
-					al.add(v);
 				}
 			}
 			
