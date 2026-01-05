@@ -19,7 +19,7 @@ public class LongestSubArray{
 		int sum=0,maxLen=0;
 		
 		int a[]=new int[]{2,3,1,2,4};
-		
+		int k=7;
 		for(int i=0; i<a.length; i++){
 			dq.addLast(a[i]);
 			
