@@ -10,7 +10,8 @@ Building logical flow to avoid sets
 import java.util.*;
 public class MergeArrayListApp{
 	public static void main(String x[]){
-		ArrayList al=new ArrayList()
+		ArrayList al=new ArrayList();
+		
 		
 		
 		al.add(10);
