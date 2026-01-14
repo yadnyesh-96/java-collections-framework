@@ -9,11 +9,12 @@ public class StackAPP{
 		
 		do{
 			System.out.println("1.PUSH/ADD Data in Stack");
+			System.out.println("1.PUSH/ADD Data in Stack");
 			System.out.println("2.REMOVE Data from Stack");
 			System.out.println("3.PEEK/TAKE Top Data from Stack");
 			System.out.println("4.Check Stack Empty or not");
 			System.out.println("5.Search Data from Stack");
-			System.out.println("5.DISPLAY Stack");
+			System.out.println("6.DISPLAY Stack");
 			System.out.println("7.EXIT");
 			System.out.println("Enter Your Choice");
 			int choice=sc.nextInt();
@@ -49,8 +50,8 @@ public class StackAPP{
 						}
 					break;
 				case 6:	ListIterator i=s.listIterator(s.size());
-						while(i.hasPrevious()){
-							Object obj1=i.previous();
+						while(i.hasNext()){
+							Object obj1=i.next();
 							System.out.println(obj1);
 						}
 					break;
