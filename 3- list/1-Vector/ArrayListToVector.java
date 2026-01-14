@@ -29,7 +29,7 @@ public class ArrayListToVector{
                 if (val1 > val2) {
                    
                     v.set(i, val2);
-                    // v.set(j, val1);
+                    v.set(j, val1);
                 }
 			}
 		}
