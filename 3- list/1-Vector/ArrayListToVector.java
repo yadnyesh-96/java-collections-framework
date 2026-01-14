@@ -34,6 +34,6 @@ public class ArrayListToVector{
 			}
 		}
 		
-		System.out.println(v);
+		// System.out.println(v);
 	}
 }
