@@ -49,8 +49,8 @@ public class StackAPP{
 						}
 					break;
 				case 6:	ListIterator i=s.listIterator(s.size());
-						while(i.hasNext()){
-							Object obj=i.next();
+						while(i.hasPrevious()){
+							Object obj=i.previous();
 							System.out.println(obj);
 						}
 					break;
