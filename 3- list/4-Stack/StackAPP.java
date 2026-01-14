@@ -25,12 +25,12 @@ public class StackAPP{
 						s.push(data);
 					break;
 					
-				case 2: data=s.pop();
-						System.out.println("Removed data is:"+data);
+				case 2: Object obj=s.pop();
+						System.out.println("Removed data is:"+obj);
 					break;
 				
-				case 3:	data=s.peek();
-						System.out.println("Top most data/element");
+				case 3:	obj=s.peek();
+						System.out.println("Top most data/element"+obj);
 					break;
 					
 				case 4: if(!s.isEmpty()){
