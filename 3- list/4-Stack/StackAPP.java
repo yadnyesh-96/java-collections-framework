@@ -48,7 +48,7 @@ public class StackAPP{
 							System.out.println("Data is Not Found");
 						}
 					break;
-				case 6:	Iterator i=s.iterator(s.size());
+				case 6:	ListIterator i=s.ListIterator(s.size());
 						while(i.hasNext()){
 							Object obj=i.next();
 							System.out.println(obj);
