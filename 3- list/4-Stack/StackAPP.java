@@ -50,8 +50,8 @@ public class StackAPP{
 					break;
 				case 6:	ListIterator i=s.listIterator(s.size());
 						while(i.hasPrevious()){
-							Object obj=i.previous();
-							System.out.println(obj);
+							Object obj1=i.previous();
+							System.out.println(obj1);
 						}
 					break;
 					
