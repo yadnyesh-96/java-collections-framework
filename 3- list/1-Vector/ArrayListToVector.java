@@ -6,10 +6,10 @@ Manual sorting (bubble sort / selection sort)
 Vector methods like add(), get(), set()
 */
 
-import java.util.*;
-public class ArrayListToVector{
-	public static void main(String x[]){
-		ArrayList al=new ArrayList();
+// import java.util.*;
+// public class ArrayListToVector{
+// 	public static void main(String x[]){
+// 		ArrayList al=new ArrayList();
 		
 		al.add(50);
 		al.add(10);
