@@ -8,7 +8,7 @@ public class StackAPP{
 		Stack s=new Stack();
 		
 		do{
-			System.out.println("1.PUSH/ADD Data in Stack");
+			System.out.println("===============================");
 			System.out.println("1.PUSH/ADD Data in Stack");
 			System.out.println("2.REMOVE Data from Stack");
 			System.out.println("3.PEEK/TAKE Top Data from Stack");
@@ -18,6 +18,7 @@ public class StackAPP{
 			System.out.println("7.EXIT");
 			System.out.println("Enter Your Choice");
 			int choice=sc.nextInt();
+			System.out.println("===============================");
 			
 			switch (choice){
 				
