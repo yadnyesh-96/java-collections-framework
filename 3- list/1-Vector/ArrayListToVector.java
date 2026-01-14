@@ -21,7 +21,7 @@ public class ArrayListToVector{
 		Vector v=new Vector(al);
 		
 		for(int i=0; i<v.size(); i++){
-			// for(int j=i+1; j<v.size(); j++){
+			for(int j=i+1; j<v.size(); j++){
 				
 				int val1 = (int) v.get(i);
                 int val2 = (int) v.get(j);
