@@ -36,9 +36,9 @@ public class StackAPP{
 					break;
 					
 				case 4: if(!s.isEmpty()){
-							System.out.println("Stack is Empty");
-						}else{
 							System.out.println("Stack contains the data");
+						}else{
+							System.out.println("Stack is Empty");
 						}
 					break;
 					
@@ -51,8 +51,8 @@ public class StackAPP{
 						}
 					break;
 				case 6:	ListIterator i=s.listIterator(s.size());
-						while(i.hasNext()){
-							Object obj1=i.next();
+						while(i.hasPrevious()){
+							Object obj1=i.previous();
 							System.out.println(obj1);
 						}
 					break;
