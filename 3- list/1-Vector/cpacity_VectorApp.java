@@ -7,7 +7,7 @@ public class cpacity_VectorApp{
 		Vector v=new Vector();
 		
 		int capacity =v.capacity();
-		// System.out.println("Capacity of the Vector is :"+capacity);
+		System.out.println("Capacity of the Vector is :"+capacity);
 		
 	}
 }
