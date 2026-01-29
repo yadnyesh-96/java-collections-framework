@@ -4,7 +4,7 @@ class Employee implements Comparable{
 	
 	int id;
 	int sal;
-	int String name;
+	String name;
 	
 	Employee(int id,int sal,String name){
 		this.id=id;
@@ -12,15 +12,15 @@ class Employee implements Comparable{
 		this.name=name;
 	}
 	
-	public getId(){
+	public int getId(){
 		return id;
 	}	
 	
-	public getSal(){
+	public int getSal(){
 		return sal;
 	}
 	
-	public getName(){
+	public String getName(){
 		return name;
 	}
 	
