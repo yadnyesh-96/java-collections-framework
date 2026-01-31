@@ -22,7 +22,12 @@ public class StudentsRecord_MapAPP {
 		Dept.put("FE", FE);
 		Dept.put("SE", SE);
 		
-	
+		Set<Map.Entry>set=Dept.entrySet();
+		for(Map.Entry e:set) {
+			String Dname=e.getKey().toString();
+			System.out.println("----");
+			System.out.println("|"+Dname+"|");
+			System.out.println("----");
 			Object obj=e.getValue();
 			LinkedHashMap m=(LinkedHashMap)obj;
 			Set<Map.Entry>s=m.entrySet();
