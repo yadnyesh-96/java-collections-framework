@@ -13,12 +13,7 @@ public class PlayerRecordScenario_MapAPP {
 			al.add(new Player(4,"SUV",10));
 			al.add(new Player(5,"XYZ",50));
 			
-			ArrayList al1=new ArrayList();
-			al1.add(new Player(1,"Virat",120));
-			al1.add(new Player(2,"Dhoni",250));
-			al1.add(new Player(3,"Rohit",190));
-			al1.add(new Player(4,"Shivam",120));
-			al1.add(new Player(5,"Malinga",150));
+			
 
 			map.put("IND",al1);
 			map.put("ASUS", al);
