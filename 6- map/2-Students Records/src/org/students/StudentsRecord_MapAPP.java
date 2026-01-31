@@ -27,7 +27,7 @@ public class StudentsRecord_MapAPP {
 			String Dname=e.getKey().toString();
 			System.out.println("----");
 			System.out.println("|"+Dname+"|");
-			System.out.println("----");
+			// System.out.println("----");
 			Object obj=e.getValue();
 			LinkedHashMap m=(LinkedHashMap)obj;
 			Set<Map.Entry>s=m.entrySet();
