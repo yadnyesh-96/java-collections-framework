@@ -5,11 +5,7 @@ public class StudentsRecord_MapAPP {
 	public static void main(String[] args) {
 		LinkedHashMap FE=new LinkedHashMap();
 		
-		FE.put(1,"Anurag");
-		FE.put(2, "Harshal");
-		FE.put(3, "Saurabh");
-		FE.put(4, "Nikhil");
-		FE.put(5, "Mangesh");
+
 		
 		LinkedHashMap SE=new LinkedHashMap();
 		SE.put(1,"Aniket");
