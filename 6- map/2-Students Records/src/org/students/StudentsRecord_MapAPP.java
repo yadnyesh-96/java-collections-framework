@@ -18,10 +18,7 @@ public class StudentsRecord_MapAPP {
 		SE.put(4,"Pranav");
 		SE.put(5,"Sachin");
 		
-		LinkedHashMap Dept=new LinkedHashMap();
-		Dept.put("FE", FE);
-		Dept.put("SE", SE);
-		
+
 		Set<Map.Entry>set=Dept.entrySet();
 		for(Map.Entry e:set) {
 			String Dname=e.getKey().toString();
