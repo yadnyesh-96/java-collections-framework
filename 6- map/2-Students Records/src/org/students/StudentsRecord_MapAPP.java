@@ -1,5 +1,9 @@
 package org.students;
-im
+import java.util.*;
+public class StudentsRecord_MapAPP {
+
+	public static void main(String[] args) {
+		LinkedHashMap FE=new LinkedHashMap();
 		
 		FE.put(1,"Anurag");
 		FE.put(2, "Harshal");
