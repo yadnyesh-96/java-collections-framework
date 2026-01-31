@@ -30,6 +30,15 @@ public class StudentsRecord_MapAPP {
 			System.out.println("----");
 			Object obj=e.getValue();
 			LinkedHashMap m=(LinkedHashMap)obj;
+			Set<Map.Entry>s=m.entrySet();
+			System.out.println("ID\tNAME");
+			System.out.println("-----------------------");
+			for(Map.Entry E:s) {
+				System.out.println(E.getKey()+"\t"+E.getValue());
+			}
+			System.out.println("-----------------------");
 			
+		}
+	}
 
 }
