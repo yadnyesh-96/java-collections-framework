@@ -11,7 +11,12 @@ public class StudentsRecord_MapAPP {
 		FE.put(4, "Nikhil");
 		FE.put(5, "Mangesh");
 		
-	
+		LinkedHashMap SE=new LinkedHashMap();
+		SE.put(1,"Aniket");
+		SE.put(2,"Shubham");
+		SE.put(3,"Abhijeet");
+		SE.put(4,"Pranav");
+		SE.put(5,"Sachin");
 		
 		LinkedHashMap Dept=new LinkedHashMap();
 		Dept.put("FE", FE);
